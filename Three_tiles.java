@@ -1,4 +1,4 @@
-
+import android.localisation;
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -64,6 +64,10 @@ public class Three_tiles extends Activity {
         nextStep(3);
     }
 	
+    public void four(View view){
+	nextStep(4);
+    }
+
     public void about(View view){
         startActivity(new Intent(this, About.class));
     }
